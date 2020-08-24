@@ -1,0 +1,53 @@
+@media (max-width: 900px) {
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left main {
+        width: 90%;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .right section {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right section button {
+        width: 250px;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    footer .links {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+        height: 40vh;
+        padding-right: 0;
+    }
+
+    footer .rodape {
+        margin-top: 30px;
+    }
+}
