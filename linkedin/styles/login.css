@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    height: 90vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container img {
+    width: 80px;
+    margin: 20px 0 10px 0;
+}
+
+.container main {
+    width: 75%;
+    height: 15vh;
+}
+
+.container main h2 {
+    text-align: center;
+    font-size: 27px;
+    line-height: 32px;
+}
+
+.container main p {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 17px;
+    line-height: 28px;
+    color: rgb(146, 142, 142);
+}
+
+.login {
+    width: 70%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login input {
+    width: 350px;
+    height: 50px;
+    margin: 8px 0;
+    border: 0;
+    border: 1px solid #000;
+    border-radius: 8px;
+    transition: 400ms;
+    outline: none;
+    padding: 0 8px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.login input:hover {
+    border: 2px solid #2977C9;
+}
+
+.checked {
+    height: 50px;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+.checked #check {
+    margin-right: 10px;
+}
+
+.checked label {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.checked label a {
+    color: #0A66C2;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.checked label a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #0A66C2;
+    width: 350px;
+    height: 50px;
+    border-radius: 30px;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 52px;
+    font-weight: 600;
+    margin-top: 20px;
+    transition: 400ms;
+}
+
+button:hover {
+    background-color: #004182;
+}
+
+a#password {
+    width: 150px;
+    color: #0A66C2;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-top: 20px;
+    text-align: center;
+    padding: 8px;
+    transition: 500ms;
+}
+
+a#password:hover {
+    background-color: rgba(127, 255, 212, 0.507);
+    border-radius: 15px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 15px;
+}
+
+#cadastro {
+    text-decoration: none;
+    color: #0A66C2;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid gray;
+}
+
+footer img {
+    width: 60px;
+    height: 100%;
+    margin-right: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(146, 142, 142);
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
