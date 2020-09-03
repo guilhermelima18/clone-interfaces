@@ -1,0 +1,42 @@
+@media (max-width: 900px) {
+    .container {
+        width: 350px;
+        height: 120vh;
+        margin-bottom: 20px;
+    }
+
+    .container main {
+        height: 150px;
+        margin-bottom: 20px;
+    }
+
+    .login {
+        width: 350px;
+        height: 150px;
+    }
+
+    .checked {
+        width: 290px;
+        height: 10vh;
+    }
+
+    .login input {
+        width: 280px;
+    }
+
+    footer {
+        height: 40vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    footer img {
+        width: 70px;
+        margin-left: 15px;
+    }
+
+    footer p {
+        margin-left: 10px;
+    }
+}

@@ -6,14 +6,14 @@
 
 .container {
     max-width: 1200px;
-    height: 100vh;
+    height: 70vh;
     margin: auto;
     background: url("/linkedin/assets/logo.png") no-repeat;
-    background-position: 40vw 25vh;
+    background-position: 42vw 5vh;
 }
 
 header {
-    max-width: 100%;
+    width: 88%;
     height: 80px;
     display: flex;
     flex-direction: row;
@@ -61,7 +61,6 @@ header .button #button2:hover {
 }
 
 section {
-    
     width: 55%;
     height: 75vh;
     margin-top: 50px;

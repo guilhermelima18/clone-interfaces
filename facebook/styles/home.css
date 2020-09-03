@@ -238,16 +238,3 @@ footer .footer a {
 footer .footer a:hover {
     text-decoration: underline;
 }
-
-footer .footer button {
-    background-color: white;
-    width: 40px;
-    height: 30px;
-    border: 1px solid gray;
-    cursor: pointer;
-}
-
-footer .footer button i {
-    font-size: 25px;
-    color: gray;
-}
