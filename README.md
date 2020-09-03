@@ -14,4 +14,4 @@
 
 ## Twitter
 
-![pagina-login-twitter](https://user-images.githubusercontent.com/60123147/92146152-ab972f00-edef-11ea-9037-3061d32ec772.jpg)
+![pagina-login-twitter](https://user-images.githubusercontent.com/60123147/92184095-938ed200-ee26-11ea-83cd-39f284333f7e.jpg)
