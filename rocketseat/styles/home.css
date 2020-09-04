@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #121214;
+}
+
+.container {
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.left {
+    background-color: #202024;
+    width: 50%;
+    height: 83vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+#email, #nome, #senha, #senha2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+#email button {
+    background-color: #121214;
+    width: 40px;
+    height: 55px;
+    padding: 5px;
+    border-radius: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 0;
+}
+
+#email button i {
+    color: #28272C;
+}
+
+#nome button {
+    background-color: #121214;
+    width: 40px;
+    height: 55px;
+    padding: 5px;
+    border-radius: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 0;
+}
+
+#nome button i {
+    color: #28272C;
+}
+
+#senha button {
+    background-color: #121214;
+    width: 40px;
+    height: 55px;
+    padding: 5px;
+    border-radius: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 0;
+}
+
+#senha button i {
+    color: #28272C;
+}
+
+#senha2 button {
+    background-color: #121214;
+    width: 40px;
+    height: 55px;
+    padding: 5px;
+    border-radius: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 0;
+}
+
+#senha2 button i {
+    color: #28272C;
+}
+
+.left h2 {
+    color: white;
+    font-size: 25px;
+    line-height: 20.8px;
+    margin-bottom: 25px;
+}
+
+.left input {
+    background-color: #121214;
+    width: 300px;
+    height: 45px;
+    padding: 5px;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    margin: 5px 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+}
+
+.left input:hover {
+    border-right: 2px solid #8257E5;
+    border-top: 2px solid #8257E5;
+    border-bottom: 2px solid #8257E5;
+}
+
+.left p {
+    width: 380px;
+    color: #CCCCCC;
+    font-size: 15px;
+    line-height: 18.7px;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.left p a {
+    color: #8257E6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.left p a:hover {
+    color: #9671ec;
+}
+
+.left button {
+    background-color: #8257E5;
+    width: 350px;
+    height: 50px;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 13.3px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.right {
+    width: 40%;
+    height: 83vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 100px;
+}
+
+.right h2 {
+    color: white;
+    margin: 50px 0;
+    font-size: 35px;
+}
+
+.right h2 i {
+    margin-right: 10px;
+}
+
+.right h1 {
+    width: 330px;
+    font-size: 36px;
+    line-height: 45px;
+    color: #E1E1E6;
+}
+
+.right p {
+    color: #A8A8B3;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 50px;
+}
+
+.right a {
+    color: #8257E6;
+    font-size: 14px;
+    line-height: 11.7px;
+    margin-top: 65px;
+    text-decoration: none;
+}
+
+.right a i {
+    margin-right: 15px;
+}
