@@ -1,4 +1,9 @@
-# Resolvi refazer as páginas de Logins e cadastro das redes sociais utilizando somente HTML e CSS
+# Resolvi refazer algumas páginas apenas para praticar utilizando somente HTML e CSS.
+
+## Rocketseat
+
+![pagina-cadastro-rocketseat](https://user-images.githubusercontent.com/60123147/92190242-0142fa00-ee37-11ea-9983-0276d385a13f.jpg)
+
 
 ## Linkedin
 
