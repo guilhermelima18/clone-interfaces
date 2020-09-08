@@ -1,5 +1,9 @@
 # Resolvi refazer algumas páginas apenas para praticar utilizando somente HTML e CSS.
 
+## Spotify
+
+![pagina-inicial-spotify](https://user-images.githubusercontent.com/60123147/92511961-73736000-f1e4-11ea-8d64-75c1396c881b.jpg)
+
 ## Rocketseat
 
 ![pagina-cadastro-rocketseat](https://user-images.githubusercontent.com/60123147/92190242-0142fa00-ee37-11ea-9983-0276d385a13f.jpg)
