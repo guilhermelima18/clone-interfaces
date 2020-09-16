@@ -1,5 +1,11 @@
 # Resolvi refazer algumas páginas apenas para praticar utilizando somente HTML e CSS.
 
+## Discord
+
+![discord](https://user-images.githubusercontent.com/60123147/93379504-4a7e4b00-f834-11ea-8ff4-e42d45a223ba.jpg)
+
+![discord2](https://user-images.githubusercontent.com/60123147/93379516-4e11d200-f834-11ea-9b23-81f0260fde58.jpg)
+
 ## Spotify
 
 ![pagina-inicial-spotify](https://user-images.githubusercontent.com/60123147/92511961-73736000-f1e4-11ea-8d64-75c1396c881b.jpg)
