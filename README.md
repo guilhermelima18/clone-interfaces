@@ -30,3 +30,6 @@
 ## Twitter
 
 ![pagina-login-twitter](https://user-images.githubusercontent.com/60123147/92184095-938ed200-ee26-11ea-83cd-39f284333f7e.jpg)
+
+![pagina-inicial-twitter](https://user-images.githubusercontent.com/60123147/93839310-ecea6400-fc62-11ea-96d3-9c34cf5b6e60.jpg)
+
