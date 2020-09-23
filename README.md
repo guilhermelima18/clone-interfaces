@@ -1,5 +1,10 @@
 # Resolvi refazer algumas páginas apenas para praticar utilizando somente HTML e CSS.
 
+## Netflix
+
+![netflix-login](https://user-images.githubusercontent.com/60123147/93839519-8e71b580-fc63-11ea-9c1b-dc7a6b05f5c1.jpg)
+![netflix-login-rodape](https://user-images.githubusercontent.com/60123147/93839522-90d40f80-fc63-11ea-9e84-57e82d4bc277.jpg)
+
 ## Discord Web
 
 ![discord](https://user-images.githubusercontent.com/60123147/93379504-4a7e4b00-f834-11ea-8ff4-e42d45a223ba.jpg)
@@ -30,3 +35,6 @@
 ## Twitter
 
 ![pagina-login-twitter](https://user-images.githubusercontent.com/60123147/92184095-938ed200-ee26-11ea-83cd-39f284333f7e.jpg)
+
+![pagina-inicial-twitter](https://user-images.githubusercontent.com/60123147/93839310-ecea6400-fc62-11ea-96d3-9c34cf5b6e60.jpg)
+
