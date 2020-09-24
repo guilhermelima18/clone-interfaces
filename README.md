@@ -37,6 +37,11 @@
 
 ![pagina-login-facebook](https://user-images.githubusercontent.com/60123147/92146118-a0dc9a00-edef-11ea-8526-7d3eab179411.jpg)
 
+## Instagram
+
+![instagram](https://user-images.githubusercontent.com/60123147/94088229-4fb83880-fde6-11ea-89e1-dd8fa92ec5ef.jpg)
+![instagram-rodape](https://user-images.githubusercontent.com/60123147/94088234-534bbf80-fde6-11ea-92f8-434022edd5b7.jpg)
+
 ## Twitter
 
 ![pagina-login-twitter](https://user-images.githubusercontent.com/60123147/92184095-938ed200-ee26-11ea-83cd-39f284333f7e.jpg)
