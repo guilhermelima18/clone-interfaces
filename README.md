@@ -46,5 +46,7 @@
 
 ![pagina-login-twitter](https://user-images.githubusercontent.com/60123147/92184095-938ed200-ee26-11ea-83cd-39f284333f7e.jpg)
 
-![pagina-inicial-twitter](https://user-images.githubusercontent.com/60123147/93839310-ecea6400-fc62-11ea-96d3-9c34cf5b6e60.jpg)
+![pagina-inicial-twitter](https://user-images.githubusercontent.com/60123147/94498618-fe86bb00-01d0-11eb-9f39-a52382d43b1a.jpg)
+
+![pagina-perfil-twitter](https://user-images.githubusercontent.com/60123147/94498630-021a4200-01d1-11eb-915d-4b947d1a23fb.jpg)
 
