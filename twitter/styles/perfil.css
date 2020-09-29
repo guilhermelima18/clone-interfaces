@@ -1,0 +1,172 @@
+.cards-perfil {
+    height: 110vh;
+}
+
+.cards-perfil img {
+    width: 100%;
+}
+
+.card-header-top {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-header-top img {
+    width: 120px;
+    border-radius: 50%;
+    margin-top: -75px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.card-header-top img:hover {
+    filter: brightness(90%);
+}
+
+.card-header-top button {
+    width: 120px;
+    height: 40px;
+    border: 1px solid rgb(0, 153, 255);
+    color: rgb(0, 153, 255);
+    outline: none;
+    margin-right: 25px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.card-header-top button:hover {
+    background-color: #E8F5FE;
+}
+
+.card-content-section {
+    height: 140px;
+    margin: 0 20px;
+}
+
+.card-content-section h2 {
+    font-size: 22px;
+}
+
+.card-content-section h4 {
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: rgb(128, 122, 122);
+}
+
+.card-content-section p {
+    line-height: 22px;
+    font-size: 16px;
+}
+
+.card-content-bottom {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.card-content-bottom span {
+    color: rgb(128, 122, 122);
+}
+
+.main {
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.main h3 {
+    margin-right: 30px;
+    color: gray;
+}
+
+.main h3 span {
+    color: black;
+}
+
+.card-content-bottom2 {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card-content-bottom2 button {
+    background-color: white;
+    width: 140px;
+    border: 0;
+    color: rgb(0, 153, 255);
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 400ms;
+}
+
+.card-content-bottom2 button:hover {
+    background-color: #E8F5FE;
+}
+
+.right-article {
+    width: 100%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding-top: 25px;
+    margin-top: 20px;
+}
+
+.img {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img {
+    width: 60%;
+    border-radius: 50%;
+}
+
+.title {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button-follow {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-follow button {
+    background-color: white;
+    width: 80px;
+    height: 40px;
+    border: 1px solid rgb(0, 153, 255);
+    outline: none;
+    font-weight: bold;
+    color: rgb(0, 153, 255);
+    border-radius: 20px;
+    transition: 400ms;
+    cursor: pointer;
+}
+
+.button-follow button:hover {
+    background-color: #E8F5FE;
+}
