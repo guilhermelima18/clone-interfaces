@@ -1,5 +1,9 @@
 # Resolvi refazer algumas páginas apenas para praticar utilizando somente HTML e CSS.
 
+## Nubank
+
+![nubank](https://user-images.githubusercontent.com/60123147/100126096-4c7c1000-2e5c-11eb-9281-3033d1100088.jpg)
+
 ## Banco Inter - Internet Banking
 
 ![banco-inter](https://user-images.githubusercontent.com/60123147/94087818-1b904800-fde5-11ea-9825-3a64e58ebf12.jpg)
@@ -13,8 +17,6 @@
 ## Discord Web
 
 ![discord](https://user-images.githubusercontent.com/60123147/93379504-4a7e4b00-f834-11ea-8ff4-e42d45a223ba.jpg)
-
-![discord2](https://user-images.githubusercontent.com/60123147/93379516-4e11d200-f834-11ea-9b23-81f0260fde58.jpg)
 
 ## Spotify Web
 
