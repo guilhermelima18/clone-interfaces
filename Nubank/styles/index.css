@@ -119,7 +119,10 @@ header .header-login a i {
 section.content2,
 section.content3,
 section.content4,
-section.content5 {
+section.content5,
+section.content6,
+section.content7,
+section.content8 {
     background-color: #FFFFFF;
     width: 100%;
     height: auto;
@@ -132,7 +135,10 @@ section.content1 .content1-description,
 section.content2 .content2-description,
 section.content3 .content3-description,
 section.content4 .content4-description,
-section.content5 .content5-description {
+section.content5 .content5-description,
+section.content6 .content6-description,
+section.content7 .content7-description,
+section.content8 .content8-description {
     width: 100%;
     height: auto;
     display: flex;
@@ -145,7 +151,10 @@ section.content1 .content1-description h1,
 section.content2 .content2-description h1,
 section.content3 .content3-description h1,
 section.content4 .content4-description h1,
-section.content5 .content5-description h1 {
+section.content5 .content5-description h1,
+section.content6 .content6-description h1,
+section.content7 .content7-description h1,
+section.content8 .content8-description h1 {
     font-size: 48px;
     line-height: 55.7px;
     color: #FFFFFF;
@@ -160,7 +169,10 @@ section.content1 .content1-description a,
 section.content2 .content2-description a,
 section.content3 .content3-description a,
 section.content4 .content4-description a,
-section.content5 .content5-description a {
+section.content5 .content5-description a,
+section.content6 .content6-description a,
+section.content7 .content7-description a,
+section.content8 .content8-description a {
     width: 210px;
     font-size: 18px;
     font-weight: 500;
@@ -178,7 +190,10 @@ section.content1 .content1-description a:before,
 section.content2 .content2-description a:before,
 section.content3 .content3-description a:before,
 section.content4 .content4-description a:before,
-section.content5 .content5-description a:before {
+section.content5 .content5-description a:before,
+section.content6 .content6-description a:before,
+section.content7 .content7-description a:before,
+section.content8 .content8-description a:before {
     content: "";
     position: absolute;
     width: 100%;
@@ -197,7 +212,10 @@ section.content1 .content1-description a:hover:before,
 section.content2 .content2-description a:hover:before,
 section.content3 .content3-description a:hover:before,
 section.content4 .content4-description a:hover:before,
-section.content5 .content5-description a:hover:before {
+section.content5 .content5-description a:hover:before,
+section.content6 .content6-description a:hover:before,
+section.content7 .content7-description a:hover:before,
+section.content8 .content8-description a:hover:before {
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
@@ -207,7 +225,10 @@ section.content1 .content1-description a i,
 section.content2 .content2-description a i,
 section.content3 .content3-description a i,
 section.content4 .content4-description a i,
-section.content5 .content5-description a i {
+section.content5 .content5-description a i,
+section.content6 .content6-description a i,
+section.content7 .content7-description a i,
+section.content8 .content8-description a i {
     margin-left: 15px;
 }
 
@@ -268,16 +289,15 @@ section.content1 .form {
     font-size: 14px;
     line-height: 16px;
     color: #111111;
-    margin: 20px 0;
+    margin: 5px 0;
 }
 
-.form form span input {
+.form form input {
     border: 0;
     outline: none;
     background-color: #F0F0F0;
-    width: 180px;
+    width: 100%;
     height: 50px;
-    margin: 0 10px;
     border-radius: 5px;
     padding: 0 10px;
     font-size: 15px;
@@ -374,4 +394,169 @@ section.content5 .content5-description a {
 
 section.content5 .content5-img img {
     width: 65%;
+}
+
+section.content6 {
+    background: url('../assets/img6.webp') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+section.content6 .content6-description a {
+    width: 230px;
+}
+
+section.content7 {
+    background: url('../assets/img7.webp') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+section.content7 .content7-description a {
+    width: 390px;
+}
+
+section.content8 {
+    background: url('../assets/img8.webp') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+section.content8 .content8-description a {
+    width: 230px;
+}
+
+section.content9 {
+    background: #111111;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.466);
+}
+
+section.content9 .cards {
+    width: 300px;
+    height: auto;
+    margin: 20px 0 20px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+section.content9 .cards h3 {
+    margin: 20px 0;
+    color: #B9B9B9;
+}
+
+section.content9 .cards a {
+    text-decoration: none;
+    color: white;
+    margin: 5px 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+section.content9 .cards a:hover {   
+    color: #B169D3;
+}
+
+section.content9 .cards img {
+    width: 150px;
+    margin: 10px 0;
+    border: 10px solid black;
+}
+
+section.content10 {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.466);
+    background-color: #111111;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+section.content10 .footer1 {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 0 50px;
+}
+
+section.content10 .footer1 img {
+    width: 70px;
+}
+
+section.content10 .footer1 .address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+section.content10 .footer1 .address p {
+    margin: 5px 0;
+    color: white;
+}
+
+section.content10 .social {
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+section.content10 .social a {
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+}
+
+section.content10 .social a i {
+    font-size: 22px;
+}
+
+section.content10 .social a i:hover {
+    color: #D57DFF;
+}
+
+section.content11 {
+    background-color: #111111;
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+section.content11 .check {
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+section.content11 .check label {
+    /* margin: 0 5px; */
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+section.content11 .check input {
+    margin: 0 10px;
+    transform: scale(1.4);
+    border: 0;
+    outline: none;
 }
