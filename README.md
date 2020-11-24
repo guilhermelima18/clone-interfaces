@@ -1,4 +1,4 @@
-# Resolvi refazer algumas páginas apenas para praticar utilizando somente HTML e CSS.
+# Clone de Interfaces com HTML e CSS
 
 ## Nubank
 
