@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: url('../assets/13reasonswhy.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.container .logo {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .logo img {
+    width: 100%;
+}
+
+.container .menu-left,
+.container .menu-right {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .menu-left a,
+.container .menu-right a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.container .menu-right {
+    justify-content: flex-end;
+}
+
+.container .menu-right i {
+    font-size: 18px;
+    color: white;
+    margin: 0 10px;
+}
+
+.container .menu-right img {
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.container .menu-right img:hover {
+    opacity: 0.8;
+}
+
+main {
+    width: 50%;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+main .main-img {
+    width: 100%;
+}
+
+main .main-img img {
+    width: 80%;
+}
+
+main .play-series {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+main .play-series button {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 150px;
+    height: 40px;
+    border: 0;
+    outline: none;
+    margin: 30px 0;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+main .play-series button:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+main .play-series button + button {
+    margin-left: 20px;
+}
+
+main .description {
+    width: 100%;
+    padding: 10px 0;
+}
+
+main .description p {
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    line-height: 34px;
+}
+
+main .description span {
+    font-size: 18px;
+    margin: 10px 0;
+    color: white;
+    line-height: 34px;
+}
+
+@media (max-width: 950px) {
+    .container {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .container .logo {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .container .logo img {
+        width: 40%;
+        min-width: 160px;
+    }
+
+    .container .menu-left {
+        margin-bottom: 20px;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .container .menu-right {
+        display: none;
+    }
+}
