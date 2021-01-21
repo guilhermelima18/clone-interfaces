@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 h1, p, a {
@@ -9,8 +10,10 @@ h1, p, a {
 
 .container {
     background: url("../assets/background.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
     width: 100%;
-    height: 160vh;
+    height: 1000px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,30 +22,33 @@ h1, p, a {
 
 header {
     width: 100%;
+    max-width: 1200px;
+    padding: 15px 0;
 }
 
 header img {
-    width: 180px;
-    margin-top: 20px;
-    margin-left: 40px;
+    width: 15%;
+    min-width: 150px;
 }
 
 .cards {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.8);
     opacity: 0.9;
-    width: 30%;
-    height: 90vh;
+    width: 35%;
+    min-width: 360px;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 0 10px;
     border-radius: 10px;
+    margin: 50px 0;
 }
 
 .card {
     width: 100%;
-    height: 45%;
     display: flex;
     flex-direction: column;
+    margin-bottom: 10px;
+    padding: 10px 0;
 }
 
 .card h1 {
@@ -59,12 +65,14 @@ header img {
     outline: none;
     border: 0;
     border-radius: 5px;
-    padding: 10px;
+    padding: 20px 10px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .card button {
     background-color: #E50914;
-    width: 340px;
+    width: 320px;
     height: 40px;
     margin-top: 20px;
     margin-left: auto;
@@ -86,7 +94,6 @@ header img {
 
 .check {
     width: 320px;
-    height: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -94,9 +101,9 @@ header img {
     margin: 0 auto;
 }
 
-.check input {
+.check #rodape input[type=checkbox] {
     margin-right: 7px;
-    transform: scale(1.4);
+    transform: scale(1.2);
     color: black;
 }
 
@@ -129,7 +136,7 @@ header img {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin: 30px auto;
 }
 
 .footer-container a#footer-1 {
@@ -138,6 +145,9 @@ header img {
     line-height: 13px;
     color: #737373;
     margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
 }
 
 .footer-container a#footer-1 i {
@@ -170,8 +180,9 @@ header img {
 
 .footer-container p {
     margin-bottom: 15px;
-    color: #737373;
+    color: #646262;
     font-size: 17px;
+    line-height: 24px;
 }
 
 footer {
@@ -225,4 +236,11 @@ footer .footer-rodape a {
 
 footer .footer-rodape a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 1000px) {
+    header {
+        display: flex;
+        justify-content: center;
+    }
 }
