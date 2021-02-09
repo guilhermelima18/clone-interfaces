@@ -13,7 +13,7 @@ h1, p, a {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 1000px;
+    height: 110vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,21 +34,20 @@ header img {
 .cards {
     background-color: rgba(0, 0, 0, 0.8);
     opacity: 0.9;
-    width: 35%;
-    min-width: 360px;
+    width: 30%;
+    min-width: 350px;
     display: flex;
     flex-direction: column;
-    padding: 0 10px;
     border-radius: 10px;
-    margin: 50px 0;
+    margin: 20px 0;
+    padding: 20px 0;
 }
 
 .card {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
-    padding: 10px 0;
+    align-items: center;
 }
 
 .card h1 {
@@ -60,7 +59,7 @@ header img {
 
 .card input {
     width: 320px;
-    height: 25px;
+    height: 50px;
     margin: 5px auto;
     outline: none;
     border: 0;
@@ -73,10 +72,9 @@ header img {
 .card button {
     background-color: #E50914;
     width: 320px;
-    height: 40px;
+    height: 50px;
     margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 10px;
     outline: none;
     border: 0;
     color: white;
@@ -85,11 +83,11 @@ header img {
     line-height: 16px;
     border-radius: 5px;
     cursor: pointer;
-    transition: 400ms;
+    transition: 500ms;
 }
 
 .card button:hover {
-    background-color: #d30812;
+    background-color: #a1060e;
 }
 
 .check {
@@ -97,8 +95,7 @@ header img {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
 }
 
 .check #rodape input[type=checkbox] {
@@ -130,65 +127,10 @@ header img {
     align-items: center;
 }
 
-.footer-container {
-    width: 320px;
-    height: 170px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    margin: 30px auto;
-}
-
-.footer-container a#footer-1 {
-    text-decoration: none;
-    font-size: 15px;
-    line-height: 13px;
-    color: #737373;
-    margin-bottom: 15px;
-    display: flex;
-    align-items: center;
-    padding: 10px 0;
-}
-
-.footer-container a#footer-1 i {
-    margin-right: 5px;
-    color: rgb(22, 75, 247);
-    font-size: 25px;
-}
-
-.footer-container a#footer-2 {
-    font-size: 16px;
-    line-height: 13.3px;
-    color: white;
-    text-decoration: none;
-}
-
-.footer-container a#footer-2:hover {
-    text-decoration: underline;
-}
-
-.footer-container a#footer-3 {
-    font-size: 15px;
-    line-height: 10.8px;
-    color: #0071EB;
-    text-decoration: none;
-}
-
-.footer-container a#footer-3:hover {
-    text-decoration: underline;
-}
-
-.footer-container p {
-    margin-bottom: 15px;
-    color: #646262;
-    font-size: 17px;
-    line-height: 24px;
-}
-
 footer {
     background-color: black;
     width: 100%;
-    height: 250px;
+    height: 200px;
     position: absolute;
     bottom: 0;
     display: flex;
